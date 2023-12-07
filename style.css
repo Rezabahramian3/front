@@ -1,0 +1,66 @@
+body{
+  font-family: "Arabic Typesetting", serif ;
+  font-size:24pt;
+  direction: rtl;
+}
+.navbar {
+  width: 250px;
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  height: 100px;
+  line-height: 100px;
+  background-color: #eb4545;
+  text-align: center;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.navbar li:hover {
+  background-color: #09a523;
+}
+
+
+.product-card {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  margin: 10px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.product-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+.child {
+  float: right;
+} 
